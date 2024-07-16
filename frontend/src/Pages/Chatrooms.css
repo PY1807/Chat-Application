@@ -1,0 +1,68 @@
+/* li{
+  list-style-type: none;
+  
+} */
+/* li a{
+  text-decoration: none;
+} */
+.rooms
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin:5rem;
+  gap:4rem;
+}
+
+/* CSS */
+.button {
+  
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  
+  
+
+  padding: 13px 16px;
+  text-align: center;
+ 
+  /* text-transform: uppercase; */
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  white-space: nowrap;
+  width: 30%;
+} 
+
+.link
+{
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.but{background-color:#047857;border-color:#059669;border-radius:.5rem;border-width:2px;color:#fff;font-size:1.25rem;font-weight:700;line-height:1.75rem;margin-top:1.25rem;padding:.75rem;transition-duration:.3s;transition-property:background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;transition-timing-function:linear;:hover{background-color:#f5f3ff;color:#047857}}
+
+.inputt
+{
+  flex: 0.7;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+}
